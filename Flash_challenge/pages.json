@@ -1,0 +1,73 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+    	"path" : "pages/course/course",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "",
+    		"enablePullDownRefresh" : false
+    	}
+    },
+    {
+    	"path" : "pages/data/data",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "",
+    		"enablePullDownRefresh" : false
+    	}
+    },
+    {
+    	"path" : "pages/myCenter/myCenter",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "",
+    		"enablePullDownRefresh" : false
+    	}
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "HelloApp",
+    "navigationBarBackgroundColor": "#333",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "color": "#555",
+    "selectedColor": "#24afd6",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/tabBar/taber_picture/home.png",
+        "selectedIconPath": "/static/tabBar/taber_picture_selected/home.png"
+      },
+      {
+        "text": "课程",
+        "pagePath": "pages/course/course",
+        "iconPath": "/static/tabBar/taber_picture/course.png",
+        "selectedIconPath": "/static/tabBar/taber_picture_selected/course.png"
+      },
+      {
+        "text": "资料",
+        "pagePath": "pages/data/data",
+        "iconPath": "/static/tabBar/taber_picture/data.png",
+        "selectedIconPath": "/static/tabBar/taber_picture_selected/data.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/myCenter/myCenter",
+        "iconPath": "/static/tabBar/taber_picture/mycenter.png",
+        "selectedIconPath": "/static/tabBar/taber_picture_selected/mycenter.png"
+      }
+    ]
+  }
+}
